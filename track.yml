@@ -11,6 +11,7 @@ description: |-
 icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/default.png
 tags:
 - vms
+- ansible
 - k8s
 - redpanda
 - cluster_migration
@@ -27,4 +28,4 @@ lab_config:
   feedback_recap_enabled: true
   loadingMessages: true
   hideStopButton: false
-checksum: "9863899558837579837"
+checksum: "1271222998117950820"

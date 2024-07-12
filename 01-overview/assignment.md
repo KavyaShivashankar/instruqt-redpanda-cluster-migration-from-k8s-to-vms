@@ -9,7 +9,7 @@ teaser: This section provides an overview of the initial state of the cluster an
 notes:
 - type: text
   contents: |-
-    This track uses a multi-node Kubernetes cluster provided by k3s. There are 5 VMs total (providing 4 worker nodes and 1 control plane).
+    This track uses a multi-node Kubernetes cluster provided by k3s. There are 4 VMs total (providing 3 worker nodes and 1 control plane).
 
     You will walk through the configuration for Kubernetes, the Operator, Redpanda, networking, and the various tools to interact with this environment.
 
@@ -52,10 +52,10 @@ Output:
 ```bash,nocopy
 NAME      STATUS   ROLES                  AGE     VERSION
 server    Ready    control-plane,master   6m1s    v1.29.0+k3s1
-worker4   Ready    <none>                 5m19s   v1.29.0+k3s1
 worker1   Ready    <none>                 5m27s   v1.28.6+k3s2
 worker2   Ready    <none>                 5m18s   v1.28.6+k3s2
 worker3   Ready    <none>                 5m18s   v1.28.6+k3s2
+worker4   Ready    <none>                 5m19s   v1.29.0+k3s1
 ```
 
 ## MetalLB
