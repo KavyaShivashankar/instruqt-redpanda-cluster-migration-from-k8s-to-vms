@@ -7,7 +7,7 @@ spec:
     chartVersion: 5.7.36
   clusterSpec:                                                                                                                 
     image:                                                                                                                                                                                                                                                     
-      tag: "v23.3.4"                                                                                                                                                                                                                                           
+      tag: "v23.3.13"                                                                                                                                                                                                                                           
     tolerations:                                                                                                                                                                                                                                               
     - effect: NoSchedule                                                                                                                                                                                                                                       
       key: redpanda-pool1                                                                                                      
